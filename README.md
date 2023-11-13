@@ -11,7 +11,7 @@ Attribute Information
 8) maximum heart rate achieved
 9) exercise induced angina
 10) oldpeak = ST depression induced by exercise relative to rest
-11)the slope of the peak exercise ST segment
+11) the slope of the peak exercise ST segment
 12) number of major vessels (0-3) colored by flourosopy
 13) thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
 14) target: 0= less chance of heart attack 1= more chance of heart attack
