@@ -4,7 +4,7 @@ import math as mt
 import json
 
 
-train_data = pd.read_csv("Heart_aatc")
+train_data = pd.read_csv("Heart_attack.csv")
 train_data = train_data.dropna()
 
 #mean_values = train_data.mean()
