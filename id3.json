@@ -1,0 +1,551 @@
+{
+    "node_attribute": "thal",
+    "n_observations": {
+        "1": 165,
+        "0": 138
+    },
+    "information_gain": 0.21325070203885554,
+    "values": {
+        "2": {
+            "node_attribute": "ca",
+            "n_observations": {
+                "1": 130,
+                "0": 36
+            },
+            "information_gain": 0.142251434061765,
+            "values": {
+                "2": {
+                    "node_attribute": "slope",
+                    "n_observations": {
+                        "0": 7,
+                        "1": 7
+                    },
+                    "information_gain": 0.27858103784929467,
+                    "values": {
+                        "1": {
+                            "node_attribute": "chol",
+                            "n_observations": {
+                                "0": 4,
+                                "1": 1
+                            },
+                            "information_gain": 0.7219280948873623,
+                            "values": {
+                                "less_than_or_equal_to 301.0": 0,
+                                "greater_than 301.0": 1
+                            }
+                        },
+                        "2": {
+                            "node_attribute": "age",
+                            "n_observations": {
+                                "1": 6,
+                                "0": 2
+                            },
+                            "information_gain": 0.31127812445913283,
+                            "values": {
+                                "less_than_or_equal_to 61.0": {
+                                    "node_attribute": "thalach",
+                                    "n_observations": {
+                                        "1": 2,
+                                        "0": 2
+                                    },
+                                    "information_gain": 1.0,
+                                    "values": {
+                                        "less_than_or_equal_to 168.5": 0,
+                                        "greater_than 168.5": 1
+                                    }
+                                },
+                                "greater_than 61.0": 1
+                            }
+                        },
+                        "0": 0
+                    }
+                },
+                "0": {
+                    "node_attribute": "thalach",
+                    "n_observations": {
+                        "1": 102,
+                        "0": 12
+                    },
+                    "information_gain": 0.07835333631647212,
+                    "values": {
+                        "less_than_or_equal_to 160.0": {
+                            "node_attribute": "oldpeak",
+                            "n_observations": {
+                                "1": 42,
+                                "0": 11
+                            },
+                            "information_gain": 0.08984280866554373,
+                            "values": {
+                                "less_than_or_equal_to 3.0": {
+                                    "node_attribute": "age",
+                                    "n_observations": {
+                                        "1": 42,
+                                        "0": 9
+                                    },
+                                    "information_gain": 0.07715484606043244,
+                                    "values": {
+                                        "less_than_or_equal_to 58.0": {
+                                            "node_attribute": "sex",
+                                            "n_observations": {
+                                                "1": 27,
+                                                "0": 2
+                                            },
+                                            "information_gain": 0.0930764565691618,
+                                            "values": {
+                                                "0": 1,
+                                                "1": {
+                                                    "node_attribute": "chol",
+                                                    "n_observations": {
+                                                        "1": 10,
+                                                        "0": 2
+                                                    },
+                                                    "information_gain": 0.3166890883150208,
+                                                    "values": {
+                                                        "less_than_or_equal_to 241.0": 1,
+                                                        "greater_than 241.0": {
+                                                            "node_attribute": "trestbps",
+                                                            "n_observations": {
+                                                                "0": 2,
+                                                                "1": 2
+                                                            },
+                                                            "information_gain": 1.0,
+                                                            "values": {
+                                                                "less_than_or_equal_to 125.0": 0,
+                                                                "greater_than 125.0": 1
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "greater_than 58.0": {
+                                            "node_attribute": "fbs",
+                                            "n_observations": {
+                                                "1": 15,
+                                                "0": 7
+                                            },
+                                            "information_gain": 0.11360156613370043,
+                                            "values": {
+                                                "0": {
+                                                    "node_attribute": "restecg",
+                                                    "n_observations": {
+                                                        "1": 11,
+                                                        "0": 7
+                                                    },
+                                                    "information_gain": 0.10797267957394774,
+                                                    "values": {
+                                                        "0": {
+                                                            "node_attribute": "chol",
+                                                            "n_observations": {
+                                                                "1": 6,
+                                                                "0": 2
+                                                            },
+                                                            "information_gain": 0.2935644431995963,
+                                                            "values": {
+                                                                "less_than_or_equal_to 198.0": 0,
+                                                                "greater_than 198.0": {
+                                                                    "node_attribute": "cp",
+                                                                    "n_observations": {
+                                                                        "1": 6,
+                                                                        "0": 1
+                                                                    },
+                                                                    "information_gain": 0.3059584928680418,
+                                                                    "values": {
+                                                                        "1": 1,
+                                                                        "0": 1,
+                                                                        "2": 1,
+                                                                        "3": {
+                                                                            "node_attribute": "exang",
+                                                                            "n_observations": {
+                                                                                "0": 1,
+                                                                                "1": 1
+                                                                            },
+                                                                            "information_gain": 1.0,
+                                                                            "values": {
+                                                                                "0": 0,
+                                                                                "1": 1
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "1": {
+                                                            "node_attribute": "slope",
+                                                            "n_observations": {
+                                                                "0": 5,
+                                                                "1": 4
+                                                            },
+                                                            "information_gain": 0.28390628466041323,
+                                                            "values": {
+                                                                "2": {
+                                                                    "node_attribute": "sex",
+                                                                    "n_observations": {
+                                                                        "1": 2,
+                                                                        "0": 1
+                                                                    },
+                                                                    "information_gain": 0.9182958340544896,
+                                                                    "values": {
+                                                                        "0": 1,
+                                                                        "1": 0
+                                                                    }
+                                                                },
+                                                                "1": {
+                                                                    "node_attribute": "trestbps",
+                                                                    "n_observations": {
+                                                                        "0": 4,
+                                                                        "1": 1
+                                                                    },
+                                                                    "information_gain": 0.7219280948873623,
+                                                                    "values": {
+                                                                        "less_than_or_equal_to 116.0": 1,
+                                                                        "greater_than 116.0": 0
+                                                                    }
+                                                                },
+                                                                "0": 1
+                                                            }
+                                                        },
+                                                        "2": 1
+                                                    }
+                                                },
+                                                "1": 1
+                                            }
+                                        }
+                                    }
+                                },
+                                "greater_than 3.0": 0
+                            }
+                        },
+                        "greater_than 160.0": {
+                            "node_attribute": "age",
+                            "n_observations": {
+                                "1": 60,
+                                "0": 1
+                            },
+                            "information_gain": 0.07551892381412269,
+                            "values": {
+                                "less_than_or_equal_to 60.5": 1,
+                                "greater_than 60.5": {
+                                    "node_attribute": "chol",
+                                    "n_observations": {
+                                        "1": 2,
+                                        "0": 1
+                                    },
+                                    "information_gain": 0.9182958340544896,
+                                    "values": {
+                                        "less_than_or_equal_to 291.0": 1,
+                                        "greater_than 291.0": 0
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "node_attribute": "cp",
+                    "n_observations": {
+                        "1": 17,
+                        "0": 12
+                    },
+                    "information_gain": 0.5317383484967838,
+                    "values": {
+                        "3": {
+                            "node_attribute": "chol",
+                            "n_observations": {
+                                "1": 2,
+                                "0": 1
+                            },
+                            "information_gain": 0.9182958340544896,
+                            "values": {
+                                "less_than_or_equal_to 258.0": 1,
+                                "greater_than 258.0": 0
+                            }
+                        },
+                        "2": 1,
+                        "0": {
+                            "node_attribute": "sex",
+                            "n_observations": {
+                                "0": 9,
+                                "1": 1
+                            },
+                            "information_gain": 0.4689955935892812,
+                            "values": {
+                                "1": 0,
+                                "0": 1
+                            }
+                        },
+                        "1": {
+                            "node_attribute": "age",
+                            "n_observations": {
+                                "1": 4,
+                                "0": 2
+                            },
+                            "information_gain": 0.4591479170272448,
+                            "values": {
+                                "less_than_or_equal_to 55.5": 1,
+                                "greater_than 55.5": {
+                                    "node_attribute": "exang",
+                                    "n_observations": {
+                                        "0": 2,
+                                        "1": 1
+                                    },
+                                    "information_gain": 0.9182958340544896,
+                                    "values": {
+                                        "0": 0,
+                                        "1": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "4": 1,
+                "3": {
+                    "node_attribute": "thalach",
+                    "n_observations": {
+                        "0": 5,
+                        "1": 1
+                    },
+                    "information_gain": 0.6500224216483541,
+                    "values": {
+                        "less_than_or_equal_to 167.5": 0,
+                        "greater_than 167.5": 1
+                    }
+                }
+            }
+        },
+        "3": {
+            "node_attribute": "cp",
+            "n_observations": {
+                "0": 89,
+                "1": 28
+            },
+            "information_gain": 0.17396119080062045,
+            "values": {
+                "0": {
+                    "node_attribute": "oldpeak",
+                    "n_observations": {
+                        "0": 71,
+                        "1": 7
+                    },
+                    "information_gain": 0.1883798797035312,
+                    "values": {
+                        "less_than_or_equal_to 0.5": {
+                            "node_attribute": "ca",
+                            "n_observations": {
+                                "0": 14,
+                                "1": 7
+                            },
+                            "information_gain": 0.17497962098607,
+                            "values": {
+                                "0": {
+                                    "node_attribute": "age",
+                                    "n_observations": {
+                                        "1": 5,
+                                        "0": 5
+                                    },
+                                    "information_gain": 0.3958156020033583,
+                                    "values": {
+                                        "less_than_or_equal_to 42.0": 0,
+                                        "greater_than 42.0": {
+                                            "node_attribute": "chol",
+                                            "n_observations": {
+                                                "1": 5,
+                                                "0": 2
+                                            },
+                                            "information_gain": 0.863120568566631,
+                                            "values": {
+                                                "less_than_or_equal_to 237.5": 1,
+                                                "greater_than 237.5": 0
+                                            }
+                                        }
+                                    }
+                                },
+                                "1": {
+                                    "node_attribute": "slope",
+                                    "n_observations": {
+                                        "0": 4,
+                                        "1": 1
+                                    },
+                                    "information_gain": 0.7219280948873623,
+                                    "values": {
+                                        "1": 1,
+                                        "2": 0
+                                    }
+                                },
+                                "2": 0,
+                                "4": 0,
+                                "3": {
+                                    "node_attribute": "fbs",
+                                    "n_observations": {
+                                        "1": 1,
+                                        "0": 1
+                                    },
+                                    "information_gain": 1.0,
+                                    "values": {
+                                        "1": 1,
+                                        "0": 0
+                                    }
+                                }
+                            }
+                        },
+                        "greater_than 0.5": 0
+                    }
+                },
+                "2": {
+                    "node_attribute": "oldpeak",
+                    "n_observations": {
+                        "1": 11,
+                        "0": 11
+                    },
+                    "information_gain": 0.2762115685491562,
+                    "values": {
+                        "less_than_or_equal_to 1.8": {
+                            "node_attribute": "slope",
+                            "n_observations": {
+                                "1": 11,
+                                "0": 6
+                            },
+                            "information_gain": 0.36551997337481634,
+                            "values": {
+                                "2": 1,
+                                "1": {
+                                    "node_attribute": "trestbps",
+                                    "n_observations": {
+                                        "0": 6,
+                                        "1": 4
+                                    },
+                                    "information_gain": 0.5567796494470394,
+                                    "values": {
+                                        "less_than_or_equal_to 122.5": 1,
+                                        "greater_than 122.5": {
+                                            "node_attribute": "ca",
+                                            "n_observations": {
+                                                "0": 6,
+                                                "1": 1
+                                            },
+                                            "information_gain": 0.5916727785823275,
+                                            "values": {
+                                                "1": 0,
+                                                "0": 0,
+                                                "3": 1
+                                            }
+                                        }
+                                    }
+                                },
+                                "0": 1
+                            }
+                        },
+                        "greater_than 1.8": 0
+                    }
+                },
+                "1": {
+                    "node_attribute": "ca",
+                    "n_observations": {
+                        "1": 5,
+                        "0": 4
+                    },
+                    "information_gain": 0.3788788371352292,
+                    "values": {
+                        "0": {
+                            "node_attribute": "oldpeak",
+                            "n_observations": {
+                                "1": 4,
+                                "0": 2
+                            },
+                            "information_gain": 0.9182958340544896,
+                            "values": {
+                                "less_than_or_equal_to 0.15": 1,
+                                "greater_than 0.15": 0
+                            }
+                        },
+                        "1": 0,
+                        "4": 1
+                    }
+                },
+                "3": {
+                    "node_attribute": "chol",
+                    "n_observations": {
+                        "1": 5,
+                        "0": 3
+                    },
+                    "information_gain": 0.34758988139079716,
+                    "values": {
+                        "less_than_or_equal_to 229.0": 1,
+                        "greater_than 229.0": {
+                            "node_attribute": "age",
+                            "n_observations": {
+                                "0": 3,
+                                "1": 2
+                            },
+                            "information_gain": 0.4199730940219749,
+                            "values": {
+                                "less_than_or_equal_to 48.5": 0,
+                                "greater_than 48.5": {
+                                    "node_attribute": "oldpeak",
+                                    "n_observations": {
+                                        "1": 2,
+                                        "0": 1
+                                    },
+                                    "information_gain": 0.9182958340544896,
+                                    "values": {
+                                        "less_than_or_equal_to 0.7": 0,
+                                        "greater_than 0.7": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "1": {
+            "node_attribute": "ca",
+            "n_observations": {
+                "0": 12,
+                "1": 6
+            },
+            "information_gain": 0.5577277787393194,
+            "values": {
+                "0": {
+                    "node_attribute": "exang",
+                    "n_observations": {
+                        "1": 6,
+                        "0": 2
+                    },
+                    "information_gain": 0.46691718668869925,
+                    "values": {
+                        "0": 1,
+                        "1": {
+                            "node_attribute": "age",
+                            "n_observations": {
+                                "0": 2,
+                                "1": 1
+                            },
+                            "information_gain": 0.9182958340544896,
+                            "values": {
+                                "less_than_or_equal_to 50.5": 0,
+                                "greater_than 50.5": 1
+                            }
+                        }
+                    }
+                },
+                "3": 0,
+                "1": 0,
+                "2": 0
+            }
+        },
+        "0": {
+            "node_attribute": "sex",
+            "n_observations": {
+                "0": 1,
+                "1": 1
+            },
+            "information_gain": 1.0,
+            "values": {
+                "1": 0,
+                "0": 1
+            }
+        }
+    }
+}
